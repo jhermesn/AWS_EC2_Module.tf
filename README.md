@@ -33,7 +33,7 @@ See the `outputs.tf` file for all available outputs.
 ## Example
 ```terraform
 module "ec2_instance" {
-  source = "path/to/ec2-module"
+  source = "github.com/jhermesn/AWS_EC2_Module.tf"
 
   # Required parameters
   ami           = "ami-0c55b159cbfafe1f0"  # Amazon Linux 2 AMI (example)
